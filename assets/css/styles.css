@@ -1,3 +1,61 @@
 
 /* css */
 .myClass { color: blue; }
+/* base CSS */
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #325050;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 80%;
+}
+
+h1, h2 {
+  color: #325050;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+}
+h1 {
+  padding-top: 0;
+  padding-bottom: 1px;
+  border-bottom: none;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 3.2em;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #2e484c;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Libre Baskerville';
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+ul {
+  font-family: 'Libre Baskerville';
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
